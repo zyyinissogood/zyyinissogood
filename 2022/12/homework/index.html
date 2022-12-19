@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta property="og:title" content="Homework" />
+<meta property="og:description" content="1.在Linux下，安装git，使用git管理。 进行git安装 sudo apt-get install git sudo apt-get update
+安装完成后，执行 git
+git 配置 git config --global user.name &quot;aaa&quot; git config --global user.email &quot;aaa@qq.com&quot; ssh-keygen -t rsa -C &quot;aa@qq.com&quot;
+查看id_rsa.pub gedit id_rsa.pub
+查看之后就是去粘贴id_rsa.pub 之后验证 ssh -T git@github.com 2.在Linux下，利用 socket 技术编写程序，包含客户端和服务端，实现两者之间的信息传递。 client #include&lt;stdio.h&gt; #include&lt;unistd.h&gt; #include&lt;stdlib.h&gt; #include&lt;sys/socket.h&gt; #include&lt;arpa/inet.h&gt; #include&lt;string.h&gt;
+#define SERV_IP &ldquo;127.0.0.1&rdquo; #define SERV_PORT 8888" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zyyinissogood.github.io/2022/12/homework/" />
+<meta property="article:published_time" content="2022-12-19T00:23:05+08:00" />
+<meta property="article:modified_time" content="2022-12-19T00:23:05+08:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Homework"/>
+<meta name="twitter:description" content="1.在Linux下，安装git，使用git管理。 进行git安装 sudo apt-get install git sudo apt-get update
+安装完成后，执行 git
+git 配置 git config --global user.name &quot;aaa&quot; git config --global user.email &quot;aaa@qq.com&quot; ssh-keygen -t rsa -C &quot;aa@qq.com&quot;
+查看id_rsa.pub gedit id_rsa.pub
+查看之后就是去粘贴id_rsa.pub 之后验证 ssh -T git@github.com 2.在Linux下，利用 socket 技术编写程序，包含客户端和服务端，实现两者之间的信息传递。 client #include&lt;stdio.h&gt; #include&lt;unistd.h&gt; #include&lt;stdlib.h&gt; #include&lt;sys/socket.h&gt; #include&lt;arpa/inet.h&gt; #include&lt;string.h&gt;
+#define SERV_IP &ldquo;127.0.0.1&rdquo; #define SERV_PORT 8888"/>
+<meta name="generator" content="Hugo 0.92.2" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Homework",
+  "url": "https://zyyinissogood.github.io/2022/12/homework/",
+  "wordCount": "225",
+  "datePublished": "2022-12-19T00:23:05+08:00",
+  "dateModified": "2022-12-19T00:23:05+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "Your Name"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="https://zyyinissogood.github.io/2022/12/homework/">
+
+    <title>Homework | 大作业历程</title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://zyyinissogood.github.io/css/style.c6ba80bc50669557645abe05f86b73cc5af84408ed20f1551a267bc19ece8228.css" rel="stylesheet" integrity="sha256-xrqAvFBmlVdkWr4F&#43;GtzzFr4RAjtIPFVGiZ7wZ7Ogig=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://zyyinissogood.github.io/js/fontawesome.min.f5072c55a0721857184db93a50561d7dc13975b4de2e19db7f81eb5f3fa57270.js" integrity="sha256-9QcsVaByGFcYTbk6UFYdfcE5dbTeLhnbf4HrXz&#43;lcnA=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://zyyinissogood.github.io">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto"><a href="https://zyyinissogood.github.io" rel="home">大作业历程</a></h1>
+        <p class="lead blog-description" dir="auto">A simple Hugo theme based on the Bootstrap v4 blog example.</p>
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://zyyinissogood.github.io/2022/12/homework/">Homework</a></h2>
+    <p class="blog-post-meta">
+<time datetime="2022-12-19T00:23:05+08:00">Mon Dec 19, 2022</time>
+</p>
+  </header>
+  <h1 id="1在linux下安装git使用git管理">1.在Linux下，安装git，使用git管理。</h1>
+<h2 id="进行git安装">进行git安装</h2>
+<p><code>sudo apt-get install git</code>
+<code>sudo apt-get update</code></p>
+<h2 id="安装完成后执行">安装完成后，执行</h2>
+<p><code>git</code></p>
+<h2 id="git-配置">git 配置</h2>
+<p><code>git config --global user.name &quot;aaa&quot;</code>
+<code>git config --global user.email &quot;aaa@qq.com&quot;</code>
+<code>ssh-keygen -t rsa -C &quot;aa@qq.com&quot;</code></p>
+<h2 id="查看id_rsapub">查看id_rsa.pub</h2>
+<p><code>gedit id_rsa.pub</code></p>
+<h2 id="查看之后就是去粘贴id_rsapub">查看之后就是去粘贴id_rsa.pub</h2>
+<p><img src="/img/ssh.png" alt="img" title="ssh"></p>
+<h2 id="之后验证">之后验证</h2>
+<p><code>ssh -T git@github.com</code>
+<img src="/img/successful.png" alt="img" title="successful"></p>
+<h1 id="2在linux下利用-socket-技术编写程序包含客户端和服务端实现两者之间的信息传递">2.在Linux下，利用 socket 技术编写程序，包含客户端和服务端，实现两者之间的信息传递。</h1>
+<h4 id="client">client</h4>
+<p>#include&lt;stdio.h&gt;
+#include&lt;unistd.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;sys/socket.h&gt;
+#include&lt;arpa/inet.h&gt;
+#include&lt;string.h&gt;</p>
+<p>#define SERV_IP &ldquo;127.0.0.1&rdquo;
+#define SERV_PORT 8888</p>
+<p>int main(void)
+{</p>
+<pre><code>int cfd,ret;
+struct sockaddr_in serv_addr;
+char buf[BUFSIZ];
+int n;
+
+cfd=socket(AF_INET,SOCK_STREAM,0);
+if( cfd &lt; 0){
+    perror(&quot;socket error&quot;);
+    exit(1);
+}
+
+memset(&amp;serv_addr,0,sizeof(serv_addr));//memset把serv_addr指针清成空，防止默认有的时候初始化失败，默认那个值取随机值
+serv_addr.sin_family=AF_INET;
+serv_addr.sin_port=htons(SERV_PORT);
+ret=inet_pton(AF_INET,SERV_IP,&amp;serv_addr.sin_addr.s_addr);
+if( ret&lt; 0){
+    perror(&quot;inet_pton error&quot;);
+    exit(1);
+}
+
+ret=connect(cfd,(struct sockaddr *)&amp;serv_addr,sizeof(serv_addr));
+if( ret&lt; 0){
+    perror(&quot;connect error&quot;);
+    exit(1);
+}
+
+printf(&quot;send msg to server: \n&quot;);
+fgets(buf,sizeof(buf),stdin);//用户输入的所有东西都读到buf里
+
+write(cfd,buf,strlen(buf)); //写到服务器端,用fgets得到的实际字符串后面会有\n\0，所以要用strlen，‘\0’作为strlen的结束符
+n=read(cfd,buf,sizeof(buf));
+printf(&quot;Received: %s\n&quot;,buf);
+//write(STDOUT_FILENO,buf,n);
+
+close(cfd);
+return 0;
+</code></pre>
+<p>}</p>
+<h4 id="server">server</h4>
+<p>#include&lt;unistd.h&gt;
+#include&lt;sys/socket.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;arpa/inet.h&gt;
+#include&lt;ctype.h&gt;
+#define SERV_IP &ldquo;127.0.0.1&rdquo;
+#define SERV_PORT 8888<br>
+//调试过程中可用netstat -apn | grep 8888检查端口占用情况,有占用的话用kill + 端口号 杀掉占用
+//用man + 函数名查看函数参数和用法。man 7 ip查看结构体sockaddr用法</p>
+<p>int main(void)
+{</p>
+<pre><code>int lfd,cfd;
+struct sockaddr_in serv_addr,client_addr;
+socklen_t client_addr_len;
+char buf[BUFSIZ],client_IP[BUFSIZ];//BUFSIZ操作系统内嵌的宏，专门指定buf大小
+int n,i,ret;
+
+lfd=socket(AF_INET,SOCK_STREAM,0);
+if(lfd==-1){
+    perror(&quot;socket error&quot;);
+    exit(1);
+}
+
+serv_addr.sin_family=AF_INET;//地址族协议，IPv4还是ipv6
+serv_addr.sin_port=htons(SERV_PORT);//端口号，但是要用htons将本地字节序转化成网络字节序，大小端转换
+serv_addr.sin_addr.s_addr=htonl(INADDR_ANY);//需要将本地字节序转化为网络字节序进行大小端转换，但是要求h是数字的，需要用inet_pton，但是INADDR_ANY可以绑定本地有效的任意ip，直接就是数字类型了，所以可以&gt;用htonl
+
+ret=bind(lfd,(struct sockaddr *)&amp;serv_addr,sizeof(serv_addr));
+if(ret==-1){
+    perror(&quot;bind error&quot;);
+    exit(1);
+}
+
+ret=listen(lfd,128);
+if(ret==-1){
+    perror(&quot;listen error&quot;);
+    exit(1);
+}
+
+client_addr_len=sizeof(client_addr);
+</code></pre>
+<p>cfd=accept(lfd,(struct sockaddr *)&amp;client_addr,&amp;client_addr_len);
+if(cfd==-1){
+perror(&ldquo;accept error&rdquo;);
+exit(1);
+}</p>
+<pre><code>printf(&quot;client IP:%s, client port:%d\n&quot;,inet_ntop(AF_INET,&amp;client_addr.sin_addr.s_addr,client_IP,sizeof(client_IP)),ntohs(client_addr.sin_port));
+
+
+
+n=read(cfd,buf,sizeof(buf));//读来自客户端的数据，读到buf里
+printf(&quot;recv msg from client:%s\n&quot;,buf);
+for(i=0;i&lt;n;i++)
+    buf[i]='h';
+write(cfd,buf,n);//对客户端发来的数据进行简单的处理并回写到客户端
+
+
+close(lfd);
+close(cfd);
+
+return 0;
+</code></pre>
+<p>}</p>
+<h2 id="运行截图如下">运行截图如下</h2>
+<p><img src="/img/client.png" alt="img" title="client">
+<img src="/img/server.png" alt="img" title="server"></p>
+<h1 id="3配置好hugo相关环境">3.配置好Hugo相关环境</h1>
+<h2 id="安装hugo">安装hugo</h2>
+<p><code>sudo dpkg -i hugo*.deb </code></p>
+<h2 id="创建站点">创建站点</h2>
+<p><code>  hugo new site final-work</code></p>
+<h2 id="让站点可以使用git">让站点可以使用git</h2>
+<p><code>    cd ~/hugo/final-work git init</code></p>
+<h2 id="下载主题">下载主题</h2>
+<p><code> git submodule add &quot;主题的html&quot; themes/&quot;主题名的文件&quot;</code></p>
+<h2 id="创建md文件">创建md文件</h2>
+<p><code> hugo new post/homework.md</code></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzyyinissogood.github.io%2f2022%2f12%2fhomework%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fzyyinissogood.github.io%2f2022%2f12%2fhomework%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fzyyinissogood.github.io%2f2022%2f12%2fhomework%2f&amp;text=Homework" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+  <section class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p dir="auto">A simple Hugo theme based on the <a href="http://v4-alpha.getbootstrap.com/examples/blog/">Bootstrap v4 blog example</a>.</p>
+  </section>
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/2022/12/homework/">Homework</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+  <section class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      
+      <li><a href="https://example.com">Link 1</a></li>
+      
+      <li><a href="https://example.org">Link 2</a></li>
+      
+    </ol>
+  </section>
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>

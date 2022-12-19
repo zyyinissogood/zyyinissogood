@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 大作业历程</title>
+    <link>https://zyyinissogood.github.io/posts/</link>
+    <description>Recent content in Posts on 大作业历程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Dec 2022 00:23:05 +0800</lastBuildDate><atom:link href="https://zyyinissogood.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homework</title>
+      <link>https://zyyinissogood.github.io/2022/12/homework/</link>
+      <pubDate>Mon, 19 Dec 2022 00:23:05 +0800</pubDate>
+      
+      <guid>https://zyyinissogood.github.io/2022/12/homework/</guid>
+      <description>1.在Linux下，安装git，使用git管理。 进行git安装 sudo apt-get install git sudo apt-get update
+安装完成后，执行 git
+git 配置 git config --global user.name &amp;quot;aaa&amp;quot; git config --global user.email &amp;quot;aaa@qq.com&amp;quot; ssh-keygen -t rsa -C &amp;quot;aa@qq.com&amp;quot;
+查看id_rsa.pub gedit id_rsa.pub
+查看之后就是去粘贴id_rsa.pub 之后验证 ssh -T git@github.com 2.在Linux下，利用 socket 技术编写程序，包含客户端和服务端，实现两者之间的信息传递。 client #include&amp;lt;stdio.h&amp;gt; #include&amp;lt;unistd.h&amp;gt; #include&amp;lt;stdlib.h&amp;gt; #include&amp;lt;sys/socket.h&amp;gt; #include&amp;lt;arpa/inet.h&amp;gt; #include&amp;lt;string.h&amp;gt;
+#define SERV_IP &amp;ldquo;127.0.0.1&amp;rdquo; #define SERV_PORT 8888</description>
+    </item>
+    
+  </channel>
+</rss>
